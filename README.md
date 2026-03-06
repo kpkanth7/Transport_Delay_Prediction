@@ -37,9 +37,6 @@ The dataset contains trip-level records with schedule information, weather attri
 - Rows: **2,000**
 - Columns: **24**
 - Missing values: mainly in `event_type` (missing usually means no event)
-- Useful targets available:
-  - `delayed` -> classification target
-  - `actual_arrival_delay_min` -> regression target
 
 ### Target variables
 - `actual_arrival_delay_min` → used for regression
