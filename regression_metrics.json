@@ -1,0 +1,32 @@
+[
+  {
+    "model": "GradientBoostingRegressor",
+    "mae": 8.1355,
+    "rmse": 9.5059,
+    "r2": -0.0141
+  },
+  {
+    "model": "DummyRegressor",
+    "mae": 8.1546,
+    "rmse": 9.4589,
+    "r2": -0.0041
+  },
+  {
+    "model": "XGBRegressor",
+    "mae": 8.1693,
+    "rmse": 9.6697,
+    "r2": -0.0494
+  },
+  {
+    "model": "RandomForestRegressor",
+    "mae": 8.1995,
+    "rmse": 9.607,
+    "r2": -0.0358
+  },
+  {
+    "model": "LinearRegression",
+    "mae": 8.9846,
+    "rmse": 10.8546,
+    "r2": -0.3223
+  }
+]
